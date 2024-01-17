@@ -4,7 +4,7 @@ This Python script is designed to concatenate two Excel files (in xlsx format) w
 
 ## Requirements
 
-- Python 3
+- python 3
 - pandas
 - openpyxl
 
@@ -19,7 +19,7 @@ This Python script is designed to concatenate two Excel files (in xlsx format) w
 2. Navigate to the project directory:
 
     ```bash
-    cd excel-concatenation-script
+    cd concatenate-excel-files
     ```
 
 3. Install the required Python libraries:
