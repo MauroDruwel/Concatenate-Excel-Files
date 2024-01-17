@@ -32,7 +32,7 @@ This Python script is designed to concatenate two Excel files (in xlsx format) w
 Run the script from the command line by providing the paths of the two Excel files to be concatenated and the output file:
 
 ```bash
-python concatenate_excel.py file1.xlsx file2.xlsx combined.xlsx
+python main.py file1.xlsx file2.xlsx combined.xlsx
 ```
 
 Make sure to replace **file1.xlsx**, **file2.xlsx**, and **combined.xlsx** with the actual file names.
