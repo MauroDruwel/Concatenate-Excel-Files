@@ -4,8 +4,9 @@ This Python script is designed to concatenate two Excel files (in xlsx format) w
 
 ## Requirements
 
-- Python 3.x
-- pandas library (latest)
+- Python 3
+- pandas
+- openpyxl
 
 ## Installation
 
@@ -30,9 +31,10 @@ This Python script is designed to concatenate two Excel files (in xlsx format) w
 ## Usage
 Run the script from the command line by providing the paths of the two Excel files to be concatenated and the output file:
 
-    ```bash
-    python concatenate_excel.py file1.xlsx file2.xlsx combined.xlsx
-    ```
+```bash
+python concatenate_excel.py file1.xlsx file2.xlsx combined.xlsx
+```
+
 Make sure to replace **file1.xlsx**, **file2.xlsx**, and **combined.xlsx** with the actual file names.
 
 The script will concatenate the files, keeping the header from the first file and excluding the header from the second file.
